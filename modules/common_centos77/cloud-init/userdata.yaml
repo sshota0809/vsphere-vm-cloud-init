@@ -1,0 +1,8 @@
+#cloud-config
+
+debug:
+  verbose: true
+  output: '/var/log/cloud-init-debug.log'
+
+locale:       en_US.UTF-8
+timezone:     Asia/Tokyo
